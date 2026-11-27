@@ -3,7 +3,7 @@
 
 **Estándar:** IEEE Std. 830-1998.
 
-**Versión:** 1.1.1  
+**Versión:** 1.1.3
 
 **Fecha:** 11/12/2026 
 
@@ -54,7 +54,7 @@ Como elemento de configuracion software (ECS) compuesto, este documento está in
 ### 1.2 Alcance:
 El producto software se identifica oficialmente con el nombre de ***Sistema de Gestión de Almacén de Colchones (SGAC)***.
 
-<u>Funcionalidad y beneficios del sistema:</u>
+**Funcionalidad y beneficios del sistema:**
  El sistema automatizará y optimizará la gestión logística integral de un almacén especializado en productos de descanso, transformando la información de entrada en salidas estructuradas.
 
  Entre sus objetos operativos y beneficios principales se incluyen:
@@ -64,7 +64,7 @@ El producto software se identifica oficialmente con el nombre de ***Sistema de G
  3. **Gestión de salidas y despacho:** Procesamiento de pedidos de venta solicitados por los clientes, generación automática de hojas de extracción (picking) optimizadas por rutas internas de pasillos y expedición de mercancía.
  4. **Trazabilidad e informes:** Seguimiento del historial de movimiento de cada lote e integración de consultas rápidas sobre existencias disponibles y reservadas.
 
-<u>Exclusiones explícitas del sistema:</u>
+**Exclusiones explícitas del sistema:**
  Para delimitar su ámbito con precisión y evitar ambigüedades, se establecen múltiples funciones que el sistema no realizará:
  
  * No gestionará la nómina, horarios ni la administración de recursos humanos del personal asignado al almacén.
@@ -72,10 +72,21 @@ El producto software se identifica oficialmente con el nombre de ***Sistema de G
  * No procesará directamente pasarelas de pago bancario en linea ni la contabilidad financiera general de la empresa.
 
 ### 1.3 Definiciones, Acrónimos y Abreviaturas:
+A continuación se definen los términos técnicos, acrónimos y abreviaturas empleados a lo largo de esta especificación para garantizar una interpretación unívoca del documento:
+
+* **EAN-13:** *European Article Numbering*. Estándar de código de barras de 13 dígitos utilizado para la identificación unívoca de productos comerciales y lotes.
+* **ECS:** Elemento de Configuración Software (*Software Configuration Item*). Cualquier pieza de información o artefacto creado durante el desarrollo del software (documentación, código, modelos) bajo el control de GCS.
+* **GCS / SCM:** Gestión de la Configuración del Software (*Software Configuration Management*). Conjunto de disciplinas y herramientas encargadas de controlar las evoluciones y modificaciones de los ECSs.
+* **IEEE:** *Institute of Electrical and Electronics Engineers*. Organización internacional autora del estándar IEEE Std. 830-1998 para la especificación de requisitos.
+* **Lote:** Conjunto de unidades homogéneas de colchones (mismo modelo, medida, materiales y nivel de firmeza) recibidas en una única orden de entrada o recibo del fabricante.
+* **Picking:** Proceso de preparación de pedidos que consiste en la recogida y extracción ordenada de mercancía de sus ubicaciones en las estanterías del almacén.
+* **RFID:** *Radio Frequency Identification*. Tecnología de identificación remota por radiofrecuencia mediante etiquetas ópticas o electromagnéticas.
+* **RSA:** *IBM Rational Software Architect*. Herramienta CASE empleada para el modelado de diagramas UML de Casos de Uso y Actividades.
+* **SQA:** *Software Quality Assurance*. Garantía de Calidad del Software. Actividades planificadas y sistemáticas enfocadas a asegurar que el producto cumple los estándares de calidad.
+* **SRS:** *Software Requirements Specification* (Especificación de Requisitos Software). Documento normativo formal que especifica qué debe hacer el sistema software
 
 ### 1.4 Referencias:
-1. IEEE Std. 830-1998, *IEEE Recommended Practice for Software Requirements Specifications*.
-2. Guía docente del Proyecto - Ingeniería del Software I.
+
 
 ### 1.5 Resumen:
 
