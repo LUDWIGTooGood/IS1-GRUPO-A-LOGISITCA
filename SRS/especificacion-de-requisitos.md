@@ -3,7 +3,7 @@
 
 **Estándar:** IEEE Std. 830-1998.
 
-**Versión:** 1.0  
+**Versión:** 1.1.1  
 
 **Fecha:** 11/12/2026 
 
@@ -40,7 +40,17 @@
 ## 1. INTRODUCCIÓN 
 
 ### 1.1 Propósito:
- 
+El propósito fundamental de este documento de Especificación de Requisitos Software (SRS, *Software Requirements Specification*) es definir de manera formal, completa, no ambigua y verificable los requisitos del **Sistema de Gestión de Almacén de Colchones (SGAC**). La SRS establece la base contractual e ingenieril para un acuerdo explícito entre los desarrolladores y las partes interesadas sobre el comportamiento que debe tener el software. Asimismo, este documento sirve como el punto de referencia indispensable para reducir el esfuerzo de desarrollo, estimar costes, planificar el proyecto y guiar las tareas de validación y verificación de pruebas.
+
+Esta especificación se dirige a una amplia audiencia con roles y responsabilidades diferentes respecto al ciclo de vida del software:
+
+* **Cliente y dirección de operaciones:** Responsables de evaluar y validar que los servicios y funciones especificados cubren las necesidades operativas y de negocio del almacén.
+* **Equipo de desarrollo y arquitectura:** Ingenieros encargados de usar esta especificación como base para la fase de diseño técnico, el modelado UML en la herramienta *CASE IBM RATIONAL SOFTWARE ARCHITECT (RSA)* y la posterior codificación.
+* **Equipo de SQA (Software quality assurance) y evaluadores:** Revisores e inspectores cuyos criterios para evaluar la calidad, realizar RTFs (Revisiones técnicas formales) y diseñar casos de prueba incluirán las especificaciones contenidas en este documento.
+* **Usuarios finales (Jefes de compras, gestores de ventas y trabajadores del almacén):** Personas que interactuarán con el sistema de manera directa y requieren de la verificación de la usabilidad y de la adecuación de las operaciones descritas.
+
+Como elemento de configuracion software (ECS) compuesto, este documento está inmovilizado como línea base y sujeto a control formal de versiones y cambios dentro de la gestión de la configuración del software (GCS).
+
 ### 1.2 Alcance:
 
 ### 1.3 Definiciones, Acrónimos y Abreviaturas:
