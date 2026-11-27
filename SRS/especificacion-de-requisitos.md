@@ -52,6 +52,24 @@ Esta especificación se dirige a una amplia audiencia con roles y responsabilida
 Como elemento de configuracion software (ECS) compuesto, este documento está inmovilizado como línea base y sujeto a control formal de versiones y cambios dentro de la gestión de la configuración del software (GCS).
 
 ### 1.2 Alcance:
+El producto software se identifica oficialmente con el nombre de ***Sistema de Gestión de Almacén de Colchones (SGAC)***.
+
+<u>Funcionalidad y beneficios del sistema:</u>
+ El sistema automatizará y optimizará la gestión logística integral de un almacén especializado en productos de descanso, transformando la información de entrada en salidas estructuradas.
+
+ Entre sus objetos operativos y beneficios principales se incluyen:
+
+ 1. **Control de inventario y ubicaciones:** Registro en tiempo real de las existencias físicas organizadas por sus respectivos atributos (modelo, medidas, materiales y niveles de firmeza), asignando ubicaciones precisas dentro del almacén, organizado en pasillos y estanterías.
+ 2. **Gestión de entradas y recepción de lotes:** Registro y validación de recibos de entrada provenientes de fabricantes de colchones, etiquetado de lotes entrantes mediante códigos numéricos (*EAN-13/RFID*) y control de la capacidad máxima de almacenamiento.
+ 3. **Gestión de salidas y despacho:** Procesamiento de pedidos de venta solicitados por los clientes, generación automática de hojas de extracción (picking) optimizadas por rutas internas de pasillos y expedición de mercancía.
+ 4. **Trazabilidad e informes:** Seguimiento del historial de movimiento de cada lote e integración de consultas rápidas sobre existencias disponibles y reservadas.
+
+<u>Exclusiones explícitas del sistema:</u>
+ Para delimitar su ámbito con precisión y evitar ambigüedades, se establecen múltiples funciones que el sistema no realizará:
+ 
+ * No gestionará la nómina, horarios ni la administración de recursos humanos del personal asignado al almacén.
+ * No realizará el seguimiento por GPS ni la navegación de flota de los vehículos de transporte fuera de las instalaciones del almacén.
+ * No procesará directamente pasarelas de pago bancario en linea ni la contabilidad financiera general de la empresa.
 
 ### 1.3 Definiciones, Acrónimos y Abreviaturas:
 
