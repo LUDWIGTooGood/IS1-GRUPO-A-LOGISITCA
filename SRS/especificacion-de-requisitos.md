@@ -3,7 +3,7 @@
 
 **Estándar:** IEEE Std. 830-1998.
 
-**Versión:** 1.1.3
+**Versión:** 1.1.4
 
 **Fecha:** 11/12/2026 
 
@@ -86,7 +86,10 @@ A continuación se definen los términos técnicos, acrónimos y abreviaturas em
 * **SRS:** *Software Requirements Specification* (Especificación de Requisitos Software). Documento normativo formal que especifica qué debe hacer el sistema software
 
 ### 1.4 Referencias:
-
+1. ***IEEE Std. 830-1998:** *IEEE Recommended Practice for Software Requirements Specifications*. Published by the IEEE Computer Society, 1998.
+2. **ISO/IEC/IEEE 29148:2018:** *Systems and software engineering — Life cycle processes — Requirements engineering*. ISO/IEC/IEEE, 2018.
+3. **Guía del Proyecto A - Ingeniería del Software I:** Cátedra de Ingeniería del Software, Universidad Complutense de Madrid, Curso Académico 2026-2027.
+4. **Manual de Notación UML 2.5 e IBM Rational Software Architect 10:** Documentación técnica de referencia para la especificación visual de Casos de Uso y diagramas de comportamiento
 
 ### 1.5 Resumen:
 
