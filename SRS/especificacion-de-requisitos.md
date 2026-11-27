@@ -3,7 +3,7 @@
 
 **Estándar:** IEEE Std. 830-1998.
 
-**Versión:** 1.1.4
+**Versión:** 1.1.5
 
 **Fecha:** 11/12/2026 
 
@@ -92,7 +92,11 @@ A continuación se definen los términos técnicos, acrónimos y abreviaturas em
 4. **Manual de Notación UML 2.5 e IBM Rational Software Architect 10:** Documentación técnica de referencia para la especificación visual de Casos de Uso y diagramas de comportamiento
 
 ### 1.5 Resumen:
+El resto de esta Especificación de Requisitos Software se organiza en tres secciones adicionales, de acuerdo con la estructura estandarizada de la norma IEEE Std. 830-1998.
 
+* **Sección 2 (Descripción General):** Presenta el contexto global del producto, detallando la perspectiva del sistema, las interfaces externas (usuario, hardware, software y comunicaciones), las características de los tres perfiles de usuario, las restricciones de diseño y normativas, así como las dependencias de funcionamiento.
+* **Sección 3 (Requisitos Específicos):** Constituye el núcleo técnico del documento. Contiene la especificación detallada de las interfaces externas, las fichas estructuradas de 15 campos en lenguaje natural estructurado para cada requisito funcional, los requisitos de rendimiento, el Modelo del Dominio con su tabla de relaciones y multiplicidades, y los atributos de calidad del software (seguridad, fiabilidad, mantenibilidad y portabilidad).
+* **Sección 4 (Apéndices e Índice):** Incluye la matriz de trazabilidad entre los Casos de Uso del modelo UML y los Requisitos Funcionales especificados, junto con el índice alfabético de términos.
 --- 
 ## 2. DESCRIPCIÓN GENERAL 
 
